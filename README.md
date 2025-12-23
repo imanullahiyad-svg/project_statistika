@@ -2,9 +2,9 @@
 
 ## 1. Informasi Penyusun
 
-- **Nama:** `[NAMA LENGKAP MAHASISWA]`
-- **NIM:** `[NOMOR INDUK MAHASISWA]`
-- **Program Studi:** `[PROGRAM STUDI]`
+- **Nama:** IYAD IMANULLAH
+- **NIM:** 2515091090
+- **Program Studi:** `SISTEM INFORMASI
 - **Mata Kuliah:** Statistika dan Probabilitas
 
 ---
@@ -14,7 +14,7 @@
 Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja variabel di dalamnya? Apa tujuan dari analisis yang Anda lakukan?
 
 *Contoh:*
-> Dataset yang digunakan adalah data `...` yang berisi informasi tentang `...`. Variabel kunci dalam dataset ini meliputi `variabel_A`, `variabel_B`, dan `variabel_C`. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara `variabel_A` dan `variabel_B` melalui analisis korelasi, serta memprediksi `variabel_C` menggunakan `variabel_A` sebagai prediktor melalui analisis regresi.
+> Dataset yang digunakan adalah data `data_startup_saas.csv` yang berisi informasi tentang `berbagai startup SaaS yang meliputi identitas startup, jenis layanan yang disediakan, besaran pendapatan tahunan dalam miliar rupiah, biaya berlangganan dalam satuan juta rupiah, nilai pelanggan selama masa penggunaan layanan, serta persentase churn pelanggan, yang secara keseluruhan dapat dimanfaatkan untuk menilai performa bisnis dan perilaku pelanggan.`. Variabel kunci dalam dataset ini meliputi `Pendapatan_Tahunan_Miliar_IDR`, `Biaya_Akuisisi_Pelanggan_Juta_IDR`, dan `NIlai_Pelanggan_Juta_IDR`. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara `Pendapatan_Tahunan_Miliar_IDR` dan `Biaya_Akuisisi_Pelanggan_Juta_IDR` melalui analisis korelasi, serta memprediksi `NIlai_Pelanggan_Juta_IDR` menggunakan `Pendapatan_Tahunan_Miliar_IDR` sebagai prediktor melalui analisis regresi.
 
 ---
 
@@ -47,10 +47,21 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.1. Statistik Deskriptif
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
+  - dari variable yang saya analisa yaitu Biaya_Akuisisi_Pelanggan_Juta_IDR saya mendapatkan :
+    1. Mean = 33.4985230769231
+    2. Median = 33.075
+    3. modus = 3.21
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
+  - mean sebesar 33,50 juta rupiah menunjukkan bahwa biaya yang dikeluarkan startup untuk memperoleh pelanggan umumnya berada di sekitar angka tersebut. Median yang bernilai 33,08 juta rupiah dan hampir sama dengan mean menandakan bahwa distribusi data cukup seimbang dan tidak terlalu dipengaruhi oleh nilai yang sangat tinggi atau rendah. Sementara itu, modus sebesar 3,21 juta rupiah menunjukkan bahwa biaya akuisisi pelanggan yang paling sering muncul justru relatif kecil, sehingga dapat disimpulkan bahwa ada sebagian startup yang mampu mendapatkan pelanggan dengan biaya rendah, namun keberadaan startup dengan biaya akuisisi tinggi ikut mendorong nilai rata-rata menjadi lebih besar.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
+  - dari variable yang saya analisa yaitu Biaya_Akuisisi_Pelanggan_Juta_IDR saya mendapatkan :
+  - Standar Deviasi = 20.0276791663993
+  - Range = 2.56 - 68.77
+  - Kuartil =  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+               2.56   15.23   33.08   33.50   50.92   68.77 
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
+  - Nilai standar deviasi sebesar 20,03 juta rupiah menandakan bahwa biaya akuisisi pelanggan antar startup sangat bervariasi dan cukup jauh menyimpang dari nilai rata-ratanya. Rentang data yang luas, yaitu dari 2,56 hingga 68,77 juta rupiah, menunjukkan adanya kesenjangan yang besar antara startup dengan biaya akuisisi paling rendah dan paling tinggi. Dilihat dari kuartil, seperempat data berada di bawah 15,23 juta rupiah, setengah data terpusat di sekitar median 33,08 juta rupiah, dan tiga perempat data berada di bawah 50,92 juta rupiah. Secara keseluruhan, hal ini menggambarkan bahwa sebaran data tidak merata, dengan perbedaan biaya akuisisi yang cukup signifikan di antara startup.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
@@ -61,6 +72,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
+    ![alt text]
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
 
 ### 5.3. Analisis Korelasi
