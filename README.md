@@ -115,3 +115,4 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+Kesimpulan yang saya peroleh ialah hasil analisis ini menunjukkan bahwa biaya untuk mendapatkan pelanggan di startup SaaS sangat beragam dan tidak selalu mengikuti pola yang rapi, karena tiap startup memiliki strategi dan tingkat efisiensi yang berbeda. Meski begitu, terlihat jelas bahwa ada hubungan yang sangat kuat antara pendapatan tahunan dan biaya akuisisi pelanggan. Startup dengan pendapatan yang lebih tinggi cenderung mengeluarkan biaya lebih besar untuk menarik pelanggan baru. Temuan ini diperkuat oleh hasil regresi yang menunjukkan bahwa hampir seluruh perubahan biaya akuisisi dapat dijelaskan oleh pendapatan tahunan, sehingga hubungan keduanya benar-benar erat dan konsisten.
