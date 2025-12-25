@@ -70,7 +70,8 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
-  - *Nilai p-value...* p-value = 4.138e-15
+  - *Nilai p-value...*
+  - p-value = 4.138e-15
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
   - Hasil uji Shapiro–Wilk pada variabel biaya akuisisi pelanggan menunjukkan p-value sebesar 4,138 × 10⁻¹⁵, yang nilainya jauh lebih kecil dari taraf signifikansi 0,05. Hal ini mengindikasikan bahwa data tidak berdistribusi normal. Dampaknya, teknik analisis statistik yang bergantung pada asumsi normalitas menjadi kurang tepat untuk diterapkan. Oleh karena itu, analisis lanjutan sebaiknya menggunakan metode nonparametrik atau menerapkan transformasi data agar hasil yang diperoleh lebih valid.
 - **Plot Q-Q:**
