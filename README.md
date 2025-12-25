@@ -82,7 +82,8 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...* Koefisien Korelasi (r) = 0.996
+  - *Nilai r...*
+  - Koefisien Korelasi (r) = 0.996
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
   - Koefisien korelasi sebesar 0,996 menandakan adanya korelasi positif yang sangat kuat antara dua variabel yang dianalisis. Hal ini menunjukkan bahwa peningkatan pada satu variabel hampir selalu diikuti oleh peningkatan pada variabel lainnya. Nilai yang sangat mendekati 1 menggambarkan tingkat hubungan yang sangat tinggi, namun hubungan tersebut tidak serta-merta menunjukkan adanya pengaruh sebab dan akibat.
 - **Visualisasi (Scatter Plot):**
