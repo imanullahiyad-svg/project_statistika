@@ -48,15 +48,15 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
   - dari variable yang saya analisa yaitu Biaya_Akuisisi_Pelanggan_Juta_IDR saya mendapatkan :
-    1. Mean = 33.4985230769231
-    2. Median = 33.075
+    1. Mean = 33.5
+    2. Median = 33.08
     3. modus = 3.21
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
   - mean sebesar 33,50 juta rupiah menunjukkan bahwa biaya yang dikeluarkan startup untuk memperoleh pelanggan umumnya berada di sekitar angka tersebut. Median yang bernilai 33,08 juta rupiah dan hampir sama dengan mean menandakan bahwa distribusi data cukup seimbang dan tidak terlalu dipengaruhi oleh nilai yang sangat tinggi atau rendah. Sementara itu, modus sebesar 3,21 juta rupiah menunjukkan bahwa biaya akuisisi pelanggan yang paling sering muncul justru relatif kecil, sehingga dapat disimpulkan bahwa ada sebagian startup yang mampu mendapatkan pelanggan dengan biaya rendah, namun keberadaan startup dengan biaya akuisisi tinggi ikut mendorong nilai rata-rata menjadi lebih besar.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - dari variable yang saya analisa yaitu Biaya_Akuisisi_Pelanggan_Juta_IDR saya mendapatkan :
-  - Standar Deviasi = 20.0276791663993
+  - Standar Deviasi = 20.03
   - Range = 2.56 - 68.77
   - Kuartil =  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
                2.56   15.23   33.08   33.50   50.92   68.77 
